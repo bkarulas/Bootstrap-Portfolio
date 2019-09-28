@@ -22,6 +22,14 @@ nav{
 	float: right;
 }
 
+a{
+	color: #4aaaa5;
+}
+a:hover{
+	text-decoration: none;
+	color: #1C403E;
+}
+
 header{
 	background-color: #ffffff;
 	padding-top: 50px;
@@ -35,6 +43,10 @@ header{
 	margin-top: 5px;
 	padding:0px;
 	width: 960px;
+}
+
+.title{
+	color: #4aaaa5;
 }
 
 #imgself{
@@ -104,4 +116,9 @@ button{
 	color: #ffffff;
 	margin: 0;
 	padding: 0;
+}
+
+.aimg {
+	text-decoration: none;
+	color: #ffffff;
 }
