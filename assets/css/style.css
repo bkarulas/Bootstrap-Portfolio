@@ -1,3 +1,5 @@
+
+/*background for the whole site*/
 body{
 	background-image: url("../images/background.png");
 	margin: auto;
@@ -6,6 +8,8 @@ body{
 	font-family: Arial, Helvetica, sans-serif;
 	margin: auto;
 }
+
+/*font family just for Header Tages*/
 h1, h2, h3, h4, h5, h6{
 	font-family: Georgia, "Times New Roman", Times, serif;
 }
@@ -13,15 +17,19 @@ h1, h2, h3, h4, h5, h6{
 h1{
 	float: left;
 }
+
+/*highlight my name is green and font colour in white*/
 mark {
 	background-color:#4aaaa5;
 	color: #ffffff;
   }
 
+/*nav settings*/
 nav{
 	float: right;
 }
 
+/*link settings*/
 a{
 	color: #4aaaa5;
 }
@@ -30,6 +38,7 @@ a:hover{
 	color: #1C403E;
 }
 
+/*Top of page name and nave*/
 header{
 	background-color: #ffffff;
 	padding-top: 50px;
@@ -38,6 +47,7 @@ header{
 	border-color: #cccccc;
 }
 
+/*main part of site*/
 .container{
 	background-color: #ffffff;
 	margin-top: 5px;
@@ -45,22 +55,27 @@ header{
 	width: 960px;
 }
 
+/*title of page*/
 .title{
 	color: #4aaaa5;
 }
 
+/* self image on index page settings*/
 #imgself{
 	float: left;
 	padding-right: 10px;
 
 }
+
 .name{
 	background-color: #4aaaa5;
 }
-
+/*horizontal line*/
 hr{
 	color: 4aaaa5;
 }
+
+/*main part of the page*/
 .main{
 	padding: 20px;
 	border: solid;
@@ -68,6 +83,7 @@ hr{
 	border-color: #dddddd;
 }
 
+/*footer setting*/
 footer{
 	color: #cccccc;
 	background-color: #666666;
@@ -82,12 +98,14 @@ footer{
 	width: 100%;
 }
 
+/*contact page, single line of input*/
 .box{
 	width: 100%;
 	outline-color: #dddddd;
 	margin-bottom: 20px;
 }
 
+/*contact page, multiple line of input*/
 #message{
 	width: 100%;
 	height: 200px;
@@ -95,6 +113,7 @@ footer{
 	margin-bottom: 20px;
 }
 
+/*contact page submit button*/
 button{
 	width: 100px;
 	padding:5px;
@@ -103,10 +122,13 @@ button{
 	background-color: #4aaaa5;
 	color: #ffffff;
 }
+
+/*image on portfolio page*/
 .thumbnail {
     position: relative;
 }
 
+/*text over the image on the portfolio page*/
 .caption {
     position: absolute;
     top: 60%;
@@ -118,6 +140,7 @@ button{
 	padding: 0;
 }
 
+/*link settings for the text over the pictures on the portfolio page*/
 .aimg {
 	text-decoration: none;
 	color: #ffffff;
